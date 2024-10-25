@@ -46,7 +46,7 @@ Analysis revealed several key insights regarding MercadoLibre's Google search tr
 * **Correlation with Stock Price** : There were drastic drop in both search trends and stock price in late February 2020- mid-March 2020.  This coincided with the beginning of the global Covid pandemic.  Search trends showed a steady increase thereafter, with stock prices returning to pre-event levels and remaining steady.
 
 <figure>
-    <figcaption><em>Fig: MercadoLibre Search Trends and Correlation with Stock Price, 2020<em></figcaption>
+    <figcaption><em>Fig: MercadoLibre Stock Price, Search Traffic 2020</em></figcaption>
     <img src="images/search_v_stock.png" height="400"
          alt="MercadoLibre Search Trends and Correlation with Stock Price, 2020">
 </figure>
@@ -56,14 +56,14 @@ Analysis revealed several key insights regarding MercadoLibre's Google search tr
 * **Yearly Trends** : Lowest during late December - early January, likely due to the holiday period, and showed spikes during late January and other periods coinciding with major holidays .
 
 <figure>
-    <figcaption><em>Fig: MercadoLibre Search Traffic, Hourly Trends<em></figcaption>
+    <figcaption><em>Fig: MercadoLibre Search Traffic, Hourly Trends</em></figcaption>
     <img src="images/traffic_hourofday.png" height="200"
          alt="Search Traffic, Hourly Trends">
 </figure>
 
 
 <figure>
-    <figcaption><em>Fig: MercadoLibre Search Traffic, Day of Week Trends<em></figcaption>
+    <figcaption><em>Fig: MercadoLibre Search Traffic, Day of Week Trends</em></figcaption>
     <img src="images/traffic_dayofweek01.png" height="200"
          alt="Search Traffic, Day of Week Trends">
 </figure>
@@ -72,7 +72,7 @@ Analysis revealed several key insights regarding MercadoLibre's Google search tr
 
 
 <figure>
-    <figcaption><em>Fig: MercadoLibre Search Traffic, Day of Year Trends<em></figcaption>
+    <figcaption><em>Fig: MercadoLibre Search Traffic, Day of Year Trends</em></figcaption>
     <img src="images/traffic_dayofyear.png" height="200"
          alt="Search Traffic, Day of Year Trends">
 </figure>
