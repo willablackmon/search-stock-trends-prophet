@@ -47,11 +47,11 @@ Analysis revealed several key insights regarding MercadoLibre's Google search tr
 
 <div style="margin-left: 80px;">
 	<img src="images/search_vs_stockprice.png" alt="description" width="700">
-<br>
-	<em>MercadoLibre Search Trends and Correlation with Stock Price, 2020</em>
 </div>
-
-    &nbsp;&nbsp;
+<div style="margin-left: 100px;">
+	<em>MercadoLibre Search Trends and Correlation with Stock Price, 2020</em>
+<br>
+</div>
 
 * **Hourly Trends** : Search traffic showed decline after start of the day, hitting lowest point around 8th hour, then ramping up from 15th - 24th hour.  Peak activity occurred towards the end of the day .
 * **Daily activity :** started high on Mondays, peaked on Tuesdays, and gradually declined through the week, with significant drops on weekends.
