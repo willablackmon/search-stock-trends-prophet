@@ -45,49 +45,37 @@ Analysis revealed several key insights regarding MercadoLibre's Google search tr
 * **Unusual Patterns in Search Traffic** : Google search traffic for MercadoLibre increased significantly during May 2020, with searches totaling  **38,181** , higher than the monthly median of  **35,172** . This spike coincides with the company's release of financial resultsality Analysis**:
 * **Correlation with Stock Price** : There were drastic drop in both search trends and stock price in late February 2020- mid-March 2020.  This coincided with the beginning of the global Covid pandemic.  Search trends showed a steady increase thereafter, with stock prices returning to pre-event levels and remaining steady.
 
-<div style="margin-left: 80px;">
-	<img src="images/search_vs_stockprice.png" alt="description" width="700">
-</div>
-<div style="margin-left: 100px;">
-	<em>MercadoLibre Search Trends and Correlation with Stock Price, 2020</em>
-<br>
-</div>
-
-
-
-```
-| ![df_stock_volatile.png]("images/df_stock_volatile.png") | 
-|:--:| 
-| *Space* |
-```
-
-
-
+<figure>
+    <figcaption><em>Fig: MercadoLibre Search Trends and Correlation with Stock Price, 2020<em></figcaption>
+    <img src="images/search_v_stock.png" height="400"
+         alt="MercadoLibre Search Trends and Correlation with Stock Price, 2020">
+</figure>
 
 * **Hourly Trends** : Search traffic showed decline after start of the day, hitting lowest point around 8th hour, then ramping up from 15th - 24th hour.  Peak activity occurred towards the end of the day .
 * **Daily activity :** started high on Mondays, peaked on Tuesdays, and gradually declined through the week, with significant drops on weekends.
 * **Yearly Trends** : Lowest during late December - early January, likely due to the holiday period, and showed spikes during late January and other periods coinciding with major holidays .
 
-
-<div style="margin-left: 80px;">
-	<img src="images/traffic_hourofday.png" alt="Search Traffic, Hourly Trends" width="600"><br>
-	<em>MercadoLibre Search Traffic, Hourly Trends</em>
-</div>
-
-
-<div style="margin-left: 80px;">
-	<img src="images/traffic_dayofweek01.png" alt="Day of Week Trends" width="600">
-<br>
-	<em>MercadoLibre Search Traffic, Day of Week Trends</em>
-</div>
+<figure>
+    <figcaption><em>Fig: MercadoLibre Search Traffic, Hourly Trends<em></figcaption>
+    <img src="images/traffic_hourofday.png" height="200"
+         alt="Search Traffic, Hourly Trends">
+</figure>
 
 
-<div style="margin-left: 80px;">
-	<img src="images/traffic_dayofyear.png" alt="Day of Year Trends" width="600">
-<br>
-	<em>MercadoLibre Search Traffic, Day of Year Trends</em>
-</div>
+<figure>
+    <figcaption><em>Fig: MercadoLibre Search Traffic, Day of Week Trends<em></figcaption>
+    <img src="images/traffic_dayofweek01.png" height="200"
+         alt="Search Traffic, Day of Week Trends">
+</figure>
 
+
+
+
+<figure>
+    <figcaption><em>Fig: MercadoLibre Search Traffic, Day of Year Trends<em></figcaption>
+    <img src="images/traffic_dayofyear.png" height="200"
+         alt="Search Traffic, Day of Year Trends">
+</figure>
 
 ### Technologies and Tools
 
