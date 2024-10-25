@@ -4,7 +4,7 @@
 
 With over 200 million users, **MercadoLibre** is the most popular e-commerce site in Latin America. This project analyzes the company's financial and user data to explore potential growth strategies by leveraging search traffic data to predict stock trading outcomes.
 
-**[Data](#data)** | **[Data Processing](#data-processing)** | **[Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)** | **[Core Skills, Technologies, Tools](#core-skills-technologies-tools)** | **[Continued Exploration](#continued-exploration)**
+**[Data](#data)** | **[Data Processing](#data-processing)** | **[Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)** | **[Technologies and Tools](#core-skills-technologies-tools)** | **[Continued Exploration](#continued-exploration)**
 
 ## Abstract
 
@@ -43,19 +43,53 @@ The **Exploratory Data Analysis** section aimed to:
 Analysis revealed several key insights regarding MercadoLibre's Google search traffic and its stock price trends:
 
 * **Unusual Patterns in Search Traffic** : Google search traffic for MercadoLibre increased significantly during May 2020, with searches totaling  **38,181** , higher than the monthly median of  **35,172** . This spike coincides with the company's release of financial resultsality Analysis**:
+* **Correlation with Stock Price** : There were drastic drop in both search trends and stock price in late February 2020- mid-March 2020.  This coincided with the beginning of the global Covid pandemic.  Search trends showed a steady increase thereafter, with stock prices returning to pre-event levels and remaining steady.
+
+<div style="margin-left: 80px;">
+	<img src="images/search_vs_stockprice.png" alt="description" width="600">
+</div>
+<div style="margin-left: 100px;">
+	<em>MercadoLibre Search Trends and Correlation with Stock Price, 2020</em>
+</div>
+
+    &nbsp;&nbsp;
+
 * **Hourly Trends** : Search traffic showed decline after start of the day, hitting lowest point around 8th hour, then ramping up from 15th - 24th hour.  Peak activity occurred towards the end of the day .
 * **Daily activity :** started high on Mondays, peaked on Tuesdays, and gradually declined through the week, with significant drops on weekends.
 * **Yearly Trends** : Lowest during late December - early January, likely due to the holiday period, and showed spikes during late January and other periods coinciding with major holidays .
-* **Correlation with Stock Price** : There were drastic drop in both search trends and stock price in late February 2020- mid-March 2020.  This coincided with the beginning of the global Covid pandemic.  Search trends showed a steady increase thereafter, with stock prices returning to pre-event levels and remaining steady.
-* **Time Series Forecasting** : Using the **Prophet** model, search traffic forecast predicted a potential dip in popularity over the next 80 days.
-* **Additional Time Series Components** : The analysis of individual time series revealed that the greatest search popularity occurred at midnight, and that Tuesday was the day with the most search activity .
 
 
-### Core Skills, Technologies, Tools
+<div style="margin-left: 80px;">
+	<img src="images/traffic_hourofday.png" alt="Search Traffic, Hourly Trends" width="600">
+</div>
+<div style="margin-left: 100px;">
+	<em>MercadoLibre Search Traffic, Hourly Trends</em>
+</div>
+
+
+<div style="margin-left: 80px;">
+	<img src="images/traffic_dayofweek01.png" alt="Day of Week Trends" width="600">
+</div>
+<div style="margin-left: 100px;">
+	<em>MercadoLibre Search Traffic, Day of Week Trends</em>
+</div>
+
+
+<div style="margin-left: 80px;">
+	<img src="images/traffic_dayofyear.png" alt="Day of Year Trends" width="600">
+</div>
+<div style="margin-left: 100px;">
+	<em>MercadoLibre Search Traffic, Day of Year Trends</em>
+</div>
+
+
+### Technologies and Tools
 
 * **Tools and Libraries** : Python, Pandas, Prophet, and Jupyter Notebook for data analysis and time-series forecasting.
-* **Statistical Analysis** : Leveraged Prophet to build a time-series model, including metrics like `yhat`, `yhat_lower`, and `yhat_upper` for forecast ranges.
-* **Data Cleaning and Preparation** : Cleaned and merged search traffic and stock price datasets, ensuring consistency and reliability.
+* ****Data Cleaning and Preparation** : Cleaned and merged search traffic and stock price datasets, ensuring consistency and reliability.**
+* ****Time Series Forecasting** : Using the **Prophet** model, search traffic forecast predicted a potential dip in popularity over the next 80 days.**
+* **Basic Statistical Analysis** : Leveraged Prophet to build a time-series model, including metrics like `yhat`, `yhat_lower`, and `yhat_upper` for forecast ranges.
+* **Additional Time Series Components** : The analysis of individual time series revealed that the greatest search popularity occurred at midnight, and that Tuesday was the day with the most search activity .
 
 ### Continued Exploration
 
