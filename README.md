@@ -46,9 +46,8 @@ Analysis revealed several key insights regarding MercadoLibre's Google search tr
 * **Correlation with Stock Price** : There were drastic drop in both search trends and stock price in late February 2020- mid-March 2020.  This coincided with the beginning of the global Covid pandemic.  Search trends showed a steady increase thereafter, with stock prices returning to pre-event levels and remaining steady.
 
 <div style="margin-left: 80px;">
-	<img src="images/search_vs_stockprice.png" alt="description" width="600">
-</div>
-<div style="margin-left: 100px;">
+	<img src="images/search_vs_stockprice.png" alt="description" width="700">
+<br>
 	<em>MercadoLibre Search Trends and Correlation with Stock Price, 2020</em>
 </div>
 
@@ -60,25 +59,21 @@ Analysis revealed several key insights regarding MercadoLibre's Google search tr
 
 
 <div style="margin-left: 80px;">
-	<img src="images/traffic_hourofday.png" alt="Search Traffic, Hourly Trends" width="600">
-</div>
-<div style="margin-left: 100px;">
+	<img src="images/traffic_hourofday.png" alt="Search Traffic, Hourly Trends" width="600"><br>
 	<em>MercadoLibre Search Traffic, Hourly Trends</em>
 </div>
 
 
 <div style="margin-left: 80px;">
 	<img src="images/traffic_dayofweek01.png" alt="Day of Week Trends" width="600">
-</div>
-<div style="margin-left: 100px;">
+<br>
 	<em>MercadoLibre Search Traffic, Day of Week Trends</em>
 </div>
 
 
 <div style="margin-left: 80px;">
 	<img src="images/traffic_dayofyear.png" alt="Day of Year Trends" width="600">
-</div>
-<div style="margin-left: 100px;">
+<br>
 	<em>MercadoLibre Search Traffic, Day of Year Trends</em>
 </div>
 
