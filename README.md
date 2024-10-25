@@ -53,6 +53,17 @@ Analysis revealed several key insights regarding MercadoLibre's Google search tr
 <br>
 </div>
 
+
+
+```
+| ![df_stock_volatile.png]("images/df_stock_volatile.png") | 
+|:--:| 
+| *Space* |
+```
+
+
+
+
 * **Hourly Trends** : Search traffic showed decline after start of the day, hitting lowest point around 8th hour, then ramping up from 15th - 24th hour.  Peak activity occurred towards the end of the day .
 * **Daily activity :** started high on Mondays, peaked on Tuesdays, and gradually declined through the week, with significant drops on weekends.
 * **Yearly Trends** : Lowest during late December - early January, likely due to the holiday period, and showed spikes during late January and other periods coinciding with major holidays .
