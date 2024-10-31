@@ -21,7 +21,7 @@ The data in this project comes from the following sources:
 1. **Google Hourly Search Trends** : hourly search traffic for MercadoLibre [[Source](https://static.bc-edx.com/ai/ail-v-1-0/m8/lms/datasets/google_hourly_search_trends.csv)]
 2. **MercadoLibre Stock Prices** : stock price information for the company over time [[Source](https://static.bc-edx.com/ai/ail-v-1-0/m8/lms/datasets/mercado_stock_price.csv)]
 
-### Data Processing
+#### Data Processing
 
 Cleaning, transforming, and preparing raw data for analysis, focusing on correlating search trends with stock price patterns.
 
@@ -30,7 +30,7 @@ Cleaning, transforming, and preparing raw data for analysis, focusing on correla
 * **Merging** : Google search data for MercadoLibre merged with MercadoLibre stock price data for joint analysis.
 * **Data Cleaning** : Removed outliers and filled in missing data using interpolation methods to ensure data consistency.
 
-### Exploratory Data Analysis (EDA)
+#### Exploratory Data Analysis (EDA)
 
 The **Exploratory Data Analysis** section aimed to:
 
@@ -38,7 +38,7 @@ The **Exploratory Data Analysis** section aimed to:
 * **Seasonality Analysis** : Analyzed search data to find daily, weekly, and yearly seasonal patterns, aiming to determine the most popular times for searches.
 * **Correlation with Stock Price** : Explored correlations between search traffic and MercadoLibre's stock price, identifying potential relationships that indicate market behavior.
 
-### Results
+## Results
 
 Analysis revealed several key insights regarding MercadoLibre's Google search traffic and its stock price trends:
 
@@ -61,15 +61,11 @@ Analysis revealed several key insights regarding MercadoLibre's Google search tr
          alt="Search Traffic, Hourly Trends">
 </figure>
 
-
 <figure>
     <figcaption><em>Fig: MercadoLibre Search Traffic, Day of Week Trends</em></figcaption>
     <img src="images/traffic_dayofweek01.png" height="200"
          alt="Search Traffic, Day of Week Trends">
 </figure>
-
-
-
 
 <figure>
     <figcaption><em>Fig: MercadoLibre Search Traffic, Day of Year Trends</em></figcaption>
@@ -77,14 +73,14 @@ Analysis revealed several key insights regarding MercadoLibre's Google search tr
          alt="Search Traffic, Day of Year Trends">
 </figure>
 
-### Technologies and Tools
+## Technologies and Tools
 
 * **Tools and Libraries** : Python, Pandas, Prophet, and Jupyter Notebook for data analysis and time-series forecasting.
-* ****Data Cleaning and Preparation** : Cleaned and merged search traffic and stock price datasets, ensuring consistency and reliability.**
-* ****Time Series Forecasting** : Using the **Prophet** model, search traffic forecast predicted a potential dip in popularity over the next 80 days.**
+* **Data Cleaning and Preparation** **:** Cleaned and merged search traffic and stock price datasets, ensuring consistency and reliability.
+* **Time Series Forecasting** **:** Using the Prophet model, search traffic forecast predicted a potential dip in popularity over the next 80 days.
 * **Basic Statistical Analysis** : Leveraged Prophet to build a time-series model, including metrics like `yhat`, `yhat_lower`, and `yhat_upper` for forecast ranges.
-* **Additional Time Series Components** : The analysis of individual time series revealed that the greatest search popularity occurred at midnight, and that Tuesday was the day with the most search activity .
+* **Additional Time Series Components** : analysis of individual time series components for more granular analysis.
 
-### Continued Exploration
+## Continued Exploration
 
 The next phase of the project could utilize **Large Language Models (LLMs)** and **Transformers** from Hugging Face to analyze the content of search trends and predict the sentiment of user interest over time. Additionally, fine-tuning models like **BERT** could provide more nuanced insights into user search behaviors and their connection to market trends.
