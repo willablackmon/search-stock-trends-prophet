@@ -1,6 +1,4 @@
-# Forecasting Net Prophet
-
-**Case Study for MercadoLibre**
+# Correlating Stock Price Trends with Google Search Traffic (Prophet)
 
 With over 200 million users, **MercadoLibre** is the most popular e-commerce site in Latin America. This project analyzes the company's financial and user data to explore potential growth strategies by leveraging search traffic data to predict stock trading outcomes.
 
