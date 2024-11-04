@@ -4,15 +4,20 @@
 
 With over 200 million users, **MercadoLibre** is the most popular e-commerce site in Latin America. This project analyzes the company's financial and user data to explore potential growth strategies by leveraging search traffic data to predict stock trading outcomes.
 
-**[Data](#data)** | **[Data Processing](#data-processing)** | **[Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)** | **[Technologies and Tools](#core-skills-technologies-tools)** | **[Continued Exploration](#continued-exploration)**
+**[Data](#data)** | **[Data Processing](#data-processing)** | **[Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)** | **[Continued Exploration](#continued-exploration)**
 
 ## Abstract
 
-**Forecasting Net Prophet** sets out to determine if patterns in Google search traffic for MercadoLibre can be leveraged to predict the company stock price trends.  Analysis includes identifying unusual search traffic patterns, mining data for seasonality trends, correlating search traffic to stock price patterns, and using **Prophet** for time-series modeling.
+Determine if patterns in Google search traffic for MercadoLibre can be leveraged to predict the company stock price trends.  Identify any unusual search traffic patterns, mine data for seasonality trends, correlate search traffic to stock price patterns, and use **Prophet** for time-series modeling.
 
-Prophet is an open-source, time-series forecasting tool developed by **Facebook** (now Meta), designed to handle daily, weekly, and yearly seasonality
+Prophet is an open-source, time-series forecasting tool developed by **Facebook** (now Meta), designed to handle daily, weekly, and yearly seasonality.
 
 The analysis includes multiple time periods such as daily, weekly, and seasonal data to find correlations that could be leveraged to optimize business strategies and improve stock trading decisions.
+
+## Technologies and Tools
+
+* **Tools and Libraries** : Python, Pandas, Prophet, and Jupyter Notebook for data analysis and time-series forecasting, data cleaning and preparation.
+* **Time Series Forecasting** **:** Prophet model used to build a time-series model, including basic statistial metrics like `yhat`, `yhat_lower`, and `yhat_upper` for forecast ranges. Individual time series components investigated for more granular analysis.
 
 ## Data
 
@@ -72,14 +77,6 @@ Analysis revealed several key insights regarding MercadoLibre's Google search tr
     <img src="images/traffic_dayofyear.png" height="200"
          alt="Search Traffic, Day of Year Trends">
 </figure>
-
-## Technologies and Tools
-
-* **Tools and Libraries** : Python, Pandas, Prophet, and Jupyter Notebook for data analysis and time-series forecasting.
-* **Data Cleaning and Preparation** **:** Cleaned and merged search traffic and stock price datasets, ensuring consistency and reliability.
-* **Time Series Forecasting** **:** Using the Prophet model, search traffic forecast predicted a potential dip in popularity over the next 80 days.
-* **Basic Statistical Analysis** : Leveraged Prophet to build a time-series model, including metrics like `yhat`, `yhat_lower`, and `yhat_upper` for forecast ranges.
-* **Additional Time Series Components** : analysis of individual time series components for more granular analysis.
 
 ## Continued Exploration
 
